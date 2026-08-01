@@ -1,12 +1,22 @@
 # High-Cadence TESS Optical Photometry of PSR J2339-0533
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MustakimSaron/PSR-J2339-0533-Optical-Variability/blob/main/psr_j2339_analysis.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
-This repository contains the data reduction pipeline, statistical testing code, publication figures, and LaTeX manuscript for the paper:
+This repository contains the complete reproducible data reduction pipeline, statistical testing code, Jupyter notebooks, publication figures, and LaTeX manuscript for the paper:
 
 > **"High-Cadence TESS Optical Photometry of the Redback Pulsar PSR J2339–0533: Constraints on Shock-Driven Micro-Variability"**  
-> *Md Mustakim Bin Alam* (Novosibirsk State University)
+> **Author:** Md Mustakim Bin Alam (m.alam1@g.nsu.ru, *Department of Physics, Novosibirsk State University*)  
+
+
+---
+
+## 🚀 Run Instantly in Google Colab
+
+Click the badge below to open and execute the complete Python pipeline directly in Google Colab:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MustakimSaron/PSR-J2339-0533-Optical-Variability/blob/main/psr_j2339_analysis.ipynb)
 
 ---
 
@@ -22,7 +32,7 @@ We explicitly evaluate the single-cadence noise floor, finding that the optical 
 
 | Parameter / Metric | Measured Value / Result |
 | :--- | :--- |
-| **Target Name** | **PSR J2339–0533** (TIC 30870711) |
+| **Target System Name** | **PSR J2339–0533** (TIC 30870711) |
 | **Cadences Processed ($N$)** | $29,511$ cadences |
 | **Orbital Period ($P_{\mathrm{orb}}$)** | $0.193099\text{ d}$ ($278.06\text{ min} / 4.63\text{ h}$) |
 | **Instrumental Noise Floor ($\sigma_{\mathrm{phot}}$)** | $0.7191$ ($71.91\%$) |
@@ -35,36 +45,3 @@ We explicitly evaluate the single-cadence noise floor, finding that the optical 
 
 ---
 
-## Repository Structure
-
-* `psr_j2339_pipeline_v2.py`: Fully reproducible Python script for TESS data retrieval, normalization, Savitzky-Golay detrending, S-G sensitivity analysis, K-S test, PSD modeling, and figure generation.
-* `main.tex`: Complete LaTeX manuscript source code formatted for the *Journal of High Energy Astrophysics* (`elsarticle` preprint template).
-* `Figure1_J2339_LightCurve_Residuals.png`: 300 DPI publication Figure 1 (Light Curve, Residuals, and K-S Histogram).
-* `Figure2_J2339_FractionalVariability.png`: 300 DPI publication Figure 2 (Masked Fractional Residuals and Phase-Binned RMS Scatter).
-
----
-
-## Quickstart & Reproducibility
-
-### 1. Clone the Repository
-```bash
-git clone [https://github.com/your-username/PSR-J2339-0533-Optical-Variability.git](https://github.com/your-username/PSR-J2339-0533-Optical-Variability.git)
-cd PSR-J2339-0533-Optical-Variability
-```
-
-### 2. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the Analysis Pipeline
-```bash
-python psr_j2339_pipeline_v2.py
-```
-
----
-
-
-  note      = {In review}
-}
-```
