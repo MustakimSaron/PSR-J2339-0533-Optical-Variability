@@ -33,7 +33,7 @@ Using 120-s cadence space-based photometry from the Transiting Exoplanet Survey 
 
 2. **Orbital Ephemeris Alignment & Periodically Wrapped Detrending:**
    - Recovers $P_{\mathrm{orb}} = 0.19309835 \pm 0.00000017\ \mathrm{d}$ ($278.0616 \pm 0.0002\ \mathrm{min}$) via 200-trial bootstrap Lomb–Scargle analysis ($\Delta P = +0.0385 \pm 0.0147\ \mathrm{s}$ relative to the Pletsch & Clark 2015 reference ephemeris $P_{\mathrm{orb,ephem}} = 0.19309790(1)\ \mathrm{d}$).
-   - References all orbital phases to the ascending node epoch $T_{\mathrm{asc}} = \mathrm{MJD}\ 55791.9182100(4)$ ($\mathrm{BTJD}_0 = -1207.5817900$), placing inferior conjunction (night-side minimum) at $\phi_{\mathrm{orb}} = 0.25$ and superior conjunction (day-side maximum) at $\phi_{\mathrm{orb}} = 0.75$.
+   - References all orbital phases to the ascending node epoch $T_{\mathrm{asc}} = \mathrm{MJD}\ 55791.9182100(4)$ ($\mathrm{BTJD} = -1207.5817900$), placing inferior conjunction (night-side minimum) at $\phi_{\mathrm{orb}} = 0.25$ and superior conjunction (day-side maximum) at $\phi_{\mathrm{orb}} = 0.75$.
    - Eliminates phase-boundary discontinuities at $\phi_{\mathrm{orb}} = 0/1$ using 25% ($\approx 7,377$-cadence) periodic boundary padding prior to applying a 3rd-order Savitzky–Golay filter (4% phase window, $1,181$ cadences), cross-validated against a 4-harmonic Fourier series.
 
 3. **Separated Standardized Pulls vs. Global Heteroscedastic Monte Carlo Tails:**
