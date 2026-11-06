@@ -8,7 +8,8 @@
 **Author:** Md Mustakim Bin Alam  
 **Affiliation:** Department of Physics, Novosibirsk State University, Novosibirsk, 630090, Russia  
 **Contact:** [m.alam1@g.nsu.ru](mailto:m.alam1@g.nsu.ru)  
-**Journal:** *Physics of the Dark Universe* (Revised Short Communication)
+**Journal:** *Physics of the Dark Universe* 
+**Click on the "Open in Colab" will directly open the pipeline in Google Colab.**
 
 ---
 
